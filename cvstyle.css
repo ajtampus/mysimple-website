@@ -1,0 +1,131 @@
+body {
+    background-color: lightgrey;  
+    background-image: url(pdf\ paper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+h1.banner{
+    padding-top: 5px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    box-shadow: 5px 10px 10px gray;
+}
+.name {
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.title {
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.navipanel {
+    overflow: hidden;
+    
+}
+ul.navi {
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    overflow: scroll;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;    
+    background-color: black;
+}
+ul.navi li a {
+    font-size: 20px;
+    font-family: 'Courier New';
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+ul.navi li a:hover {
+    background-color: whitesmoke;
+    text-decoration: underline;
+    font-weight: bold;
+    box-shadow: 1px 5px 20px 5px lightblue;
+    color: blue;
+}
+h1.aboutme {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;    
+}
+.info {
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: normal;
+    color: blue;
+}
+.tabinfo {
+    display: none;
+}
+.active {
+    display: block;
+}
+img {
+     width: 200px;
+     border-radius: 10px;
+     float: left;
+     margin-left: 40px;
+     margin-right: 40px;
+     border: 5px solid rgb(93, 91, 91);
+}
+.coninfo {    
+    list-style-type: none;
+    display: block;
+    font-family: 'Trebuchet MS';  
+    font-size: 20px; 
+    padding: 0%;
+    margin-top: 150px;
+    line-height: 50%;
+    color: blue;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: 'Courier';
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgrey;
+    opacity: 35%;
+    width: 100%;
+    color: black;    
+}
+.jobexp {    
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    line-height: 0.5px;
+    padding-left: 30px;  
+}
+.position {
+    overflow-wrap: break-word;
+    line-height: normal;
+}
+
+.jobdesc {
+    line-height: normal;
+    padding-bottom: 20px;
+    color: blue;
+}
+.table {
+    line-height: normal;
+    text-align: left;
+}
