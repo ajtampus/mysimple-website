@@ -92,9 +92,10 @@ img {
     display: block;
     font-family: 'Trebuchet MS';  
     font-size: 20px; 
+    overflow-wrap: break-word;
     padding: 0%;
     margin-top: 150px;
-    line-height: 50%;
+    line-height: normal;
     color: blue;
 }
 .footer {
@@ -115,7 +116,7 @@ img {
     line-height: 0.5px;
     padding-left: 30px;  
 }
-.position {
+.position, .company {
     overflow-wrap: break-word;
     line-height: normal;
 }
